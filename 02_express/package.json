@@ -1,0 +1,31 @@
+{
+  "name": "backend-series",
+  "version": "1.0.0",
+  "description": "a simple manager for tea",
+  "keywords": [
+    "express",
+    "tea"
+  ],
+  "homepage": "https://github.com/rushikesh1547/Backend-Series#readme",
+  "bugs": {
+    "url": "https://github.com/rushikesh1547/Backend-Series/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushikesh1547/Backend-Series.git"
+  },
+  "license": "ISC",
+  "author": "Rushikesh Chandekar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
