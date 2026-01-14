@@ -37,7 +37,7 @@ app.post('/teas', (req,res) => {
     res.status(201).send(newTea)
 })
 
-//get all tea
+//get all the tea
 app.get('/teas', (req,res) => {
 
     res.status(200).send(teaData)
@@ -81,6 +81,6 @@ app.delete('/teas/:id', (req,res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server is listening at port ${port}...`);
+    console.log(`Server is listening at the port ${port}...`);
     
 })
